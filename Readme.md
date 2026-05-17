@@ -121,7 +121,7 @@ Modeli doğrulamak için segmentler arası churn oranına baktım — Kritik'ten
 
 | Segment | Müşteri Sayısı | Churn Oranı | Aksiyon |
 |---------|:--------------:|:-----------:|---------|
-| 🔴 Kritik Risk | 60 | **%100** | Derhal müdahale — VIP retention programı |
+| 🔴 Kritik Risk | 60 | **%100** | Derhal müdahale — VIP müşteri tutma programı |
 | 🟠 Yüksek Risk | 1.112 | **%65.92** | ← **Birincil aksiyon hedefi** |
 | 🟡 Orta Risk | 4.630 | %18.98 | İzleme ve erken uyarı |
 | 🟢 Düşük Risk | 4.198 | %8.69 | Standart hizmet |
@@ -165,7 +165,7 @@ Modeli doğrulamak için segmentler arası churn oranına baktım — Kritik'ten
 
 - **Önemli Etkenler (Key Influencers):** Power BI'ın makine öğrenmesi görseli — churn'ü etkileyen faktörleri otomatik tespit edip sıralıyor
 - **Risk Matrisi (Dağılım Grafiği):** Her müşteri yaş ve bakiyesine göre bir nokta olarak çiziliyor. Kırmızı noktalar (terk edenler) hangi bölgede kümelenmiş, bir bakışta görülüyor
-- **Ne-Olurdu Senaryosu (What-If):** Slider ile ikna oranını değiştirdiğinizde, bir retention kampanyasının kaç müşteriyi kurtarabileceğini anlık olarak gösteriyor
+- **Ne-Olurdu Senaryosu (What-If):** Slider ile ikna oranını değiştirdiğinizde, bir müşteri tutma kampanyasının kaç müşteriyi kurtarabileceğini anlık olarak gösteriyor
 
 ---
 
@@ -177,7 +177,7 @@ Modeli doğrulamak için segmentler arası churn oranına baktım — Kritik'ten
 | 2 | Pasif üyelerde churn oranı aktif üyelere göre çok yüksek | Pasif hesaplara otomatik aktivasyon kampanyaları (push bildirim, e-posta) |
 | 3 | 3+ ürün sahipliği **%82+ churn** — Zorunlu cross-sell şüphesi | Ürün paketleme stratejisinin gözden geçirilmesi |
 | 4 | Almanya operasyonlarında churn belirgin şekilde yüksek | Bölgesel müşteri memnuniyet araştırması ve hizmet kalitesi iyileştirmesi |
-| 5 | Churn, müşteri kıdemine (tenure) bağlı **değil** | Retention stratejileri tüm kıdem gruplarına eşit uygulanmalı |
+| 5 | Churn, müşteri kıdemine (tenure) bağlı **değil** | Müşteri tutma stratejileri tüm kıdem gruplarına eşit uygulanmalı |
 
 ---
 
